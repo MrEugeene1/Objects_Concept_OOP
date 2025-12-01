@@ -1,4 +1,7 @@
 // Elf.java
+
+import java.util.List;
+
 public class Elf extends Good {
     public Elf() {
         super(Population.ELF);
@@ -6,7 +9,7 @@ public class Elf extends Good {
     
     @Override
     public void move(Map map) {
-        if (energyPoints <= 0) return;
+        if (energyPoints <= 0 || currentTile == null) return;
         
         RandomNumberGenerator random = RandomNumberGenerator.getInstance();
         List<Tile> possibleMoves = map.getAvailableTiles(currentTile.getPosition());

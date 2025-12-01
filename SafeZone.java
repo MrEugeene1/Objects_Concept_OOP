@@ -1,5 +1,3 @@
-package Objects_Concept_OOP;
-
 // SafeZone.java
 public class SafeZone {
     private Position center;
@@ -28,4 +26,8 @@ public class SafeZone {
     // Getters
     public Position getCenter() { return center; }
     public Population getPopulation() { return population; }
+
+    public int getRadius() {
+        return this.radius;
+    }
 }

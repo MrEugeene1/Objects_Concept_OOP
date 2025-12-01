@@ -1,4 +1,8 @@
 // Master.java
+
+import java.util.ArrayList;
+import java.util.List;
+
 public abstract class Master extends LivingBeing {
     protected List<String> collectedMessages;
     

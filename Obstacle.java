@@ -1,4 +1,4 @@
-package Objects_Concept_OOP;
+
 
 // Obstacle.java
 public class Obstacle {
